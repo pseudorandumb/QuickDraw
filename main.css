@@ -1,0 +1,125 @@
+h1{
+  position:relative;
+  left: 45%;
+}
+#field{
+  background-image:url("images/background.png");
+  background-size: 100%;
+  background-repeat:no-repeat;
+  /*width: 100%;*/
+  /*min-height: 100%;*/
+  position: absolute; top: 0; right: 0; bottom: 0; left: 0;
+}
+
+#flash{
+  display:none;
+  background-color: white;
+  background-size: 100%;
+  background-repeat:no-repeat;
+  z-index: 100;
+  position: absolute; top: 0; right: 0; bottom: 0; left: 0;
+}
+
+#flash_red{
+  display:none;
+  opacity: 0.8; 
+  background-color: red;
+  background-size: 100%;
+  background-repeat:no-repeat;
+  z-index: 100;
+  position: absolute; top: 0; right: 0; bottom: 0; left: 0;
+}
+
+#bill{
+  background-image:url("images/enemy.png");
+  background-repeat:no-repeat;
+  background-size: 100%;
+
+  width: 120px;
+  height: 280px;
+  /*z-index: -10;*/
+  position: absolute;
+  left: 50%;
+  top: 320px;
+}
+
+.test{
+  
+  top: 400px !important;
+  -webkit-transform: rotateX(60deg) rotateZ(20deg);
+  
+
+  -webkit-transition: all 225ms cubic-bezier(0.545, 0.165, 0.835, 0.425);
+  -moz-transition: all 225ms cubic-bezier(0.545, 0.165, 0.835, 0.425);
+  -ms-transition: all 225ms cubic-bezier(0.545, 0.165, 0.835, 0.425);
+  -o-transition: all 225ms cubic-bezier(0.545, 0.165, 0.835, 0.425);
+  transition: all 225ms cubic-bezier(0.545, 0.165, 0.835, 0.425);
+}
+
+#gun{
+  display:none;
+  background-image:url("images/gun.png");
+  background-repeat:no-repeat;
+  background-size: 100%;
+
+  width: 40px;
+  height: 90px;
+  z-index: 1;
+  position: absolute;
+  left: 7px;
+  top: 128px;
+}
+
+#gunShotFlash{
+  display:none;
+  background-image:url("images/gunshotflash.png");
+  background-repeat:no-repeat;
+  background-size: 100%;
+
+  width: 120px;
+  height: 160px;
+  z-index: 10;
+  position: absolute;
+  left: -45px;
+  top: 90px;
+}
+
+#not_gun{
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+  display: none;
+  color: red;
+  font-size: 24pt;
+}
+#fire_gun{
+  display: none;
+  color: green;
+  font-size: 24pt;
+}
+#premature{
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  display: none;
+  color: red;
+  font-size: 24pt;
+}
+#gunInPosition{
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+  display:none;
+  font-size: 24pt;
+  font-family: Arial;
+}
+#connection{
+  visibility: hidden;
+  color: white;
+  position: absolute;
+  top: 160px;
+  left: 30px;
+  font-size: 24pt;
+  font-family: Arial; 
+}
